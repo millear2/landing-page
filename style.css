@@ -110,8 +110,8 @@ li, a{
 .container2-1 {
     flex: 1;
     display: flex;
-    justify-content: space-evenly;
     gap: 48px;
+    justify-content: center;
 }
 
 .container2-1 div {
@@ -130,4 +130,5 @@ li, a{
 
 .container2-1 p {
     margin: 0;
+    width: 200px;
 }
