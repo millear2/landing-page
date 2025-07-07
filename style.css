@@ -63,7 +63,7 @@ li, a{
     display: flex;
     flex-direction: column;
     flex: 1;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
 }
 
 .container1-1 .large {
@@ -123,7 +123,7 @@ li, a{
 
 .container2-1 .img {
     border: 2px, solid, #3882F6;
-    border-radius: 4px;
+    border-radius: 12px;
     height: 200px;
     width: 200px;
     margin: 0;
@@ -160,4 +160,53 @@ li, a{
     font-size: large;
     font-weight: 800;
     text-align: right;
+}
+
+.container4 {
+    flex: 1;
+    display: flex;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 150px;
+}
+
+.container4 div {
+    flex: 1;
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 30px;
+    align-items: center;
+}
+
+.container4 .action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.large, .small {
+    margin: 0;
+}
+
+.container4 .large {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.container4 .small {
+    font-size: large;
+    font-weight: lighter;
+}
+
+.container4 button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: large;
+    border: 2px, solid, #F9FAF8;
+    border-radius: 4px;
+    flex: 0 0 auto;
+    padding: 4px 16px;
+    max-height: fit-content;
 }
