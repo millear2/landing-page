@@ -110,13 +110,14 @@ li, a{
 .container2-1 {
     flex: 1;
     display: flex;
-    gap: 48px;
+    gap: 24px;
     justify-content: center;
 }
 
 .container2-1 div {
     font-size: small;
     color:#E5E7EB;
+    justify-self: center;
     text-align: center;
 }
 
@@ -129,6 +130,34 @@ li, a{
 }
 
 .container2-1 p {
-    margin: 0;
+    margin: 12px;
     width: 200px;
+}
+
+.container3 {
+    flex: 1 0 auto;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    padding: 60px;
+}
+
+.container3 p {
+    margin: 0;
+    width: 550px;
+}
+
+.container3 .quote {
+    font-size: x-large;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.container3 .author {
+    font-size: large;
+    font-weight: 800;
+    text-align: right;
 }
